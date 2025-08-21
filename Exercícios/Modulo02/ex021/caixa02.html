@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(46, 46, 46);
+            margin: 0px;
+        }
+
+        header {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(58, 58, 58);
+            padding: 3px;
+            box-shadow: 4px 4px 6px 2px #00000078;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            border-radius: 5px;   
+        }
+
+        nav a:hover {
+            background-color: rgb(100, 100, 100);
+        }
+
+        main {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        article {
+            background-color: lightgray;
+        }
+
+        article > aside {
+            background-color: #747474;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Links diversos</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dicta totam libero, voluptatum optio omnis quae dignissimos beatae soluta non porro, voluptate consectetur maxime nam reiciendis doloribus, qui laudantium. Temporibus!</p>
+                <aside>
+                    <p>Escrito por fulano</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por mim</p>
+    </footer>
+    </body>
+</html>

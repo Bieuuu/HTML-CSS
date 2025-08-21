@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+.galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 600px;
+}
+.galeria a {
+    display: inline-block;
+}
+.galeria img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.video-container {
+    text-align: center;
+}
+.video-container a {
+    display: inline-block;
+}
+.voltar {
+    text-align: center;
+    margin-top: 20px;
+}

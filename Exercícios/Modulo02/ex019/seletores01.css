@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+h1 {
+    color: #ba45cc;
+}
+
+h2 {
+    color: #7d3588;
+}
+
+p {
+    color: #46324A;
+}
+
+h1#principal {
+    background-color: #B022C9;
+    color: #ffffff;
+    text-align: center;
+}
+
+.destaque {
+    background-color: #eeb4ff;
+}
+
+.titulo1 {
+    color: #ea62ff;
+}
+
+.titulo2 {
+    color: #67237a;
+}
+
+.titulo3 {
+    color: #35123f;
+}

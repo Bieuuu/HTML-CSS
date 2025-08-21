@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem dinamica</title>
+</head>
+<body>
+    <h1>Vou fazer uma imagem que se adapta ao tamanho da tela de forma dinamica</h1>
+    <picture>
+        <source media="(max-width: 790px)" srcset="images/paisagem-p.png" type="image/png">
+        <source media="(max-width: 1250px)" srcset="images/paisagem-m.png" type="image/png">
+        <img src="images/paisagem-g.png" alt="Imagem-dinamica">
+    </picture>
+    <h1>Reproducao de audios</h1>
+    <audio preload="auto" controls autoplay>
+<source src="midia/BLYAT kid - [HQ] Sound Effect 4.mp3" type="audio/mpeg">
+<source src="midia/BLYAT kid - [HQ] Sound Effect 4.mp3" type="audio/ogg">
+<source src="midia/BLYAT kid - [HQ] Sound Effect 4.mp3" type="audio/wav">
+        <p>Seu navegador não suporta o elemento de áudio.
+        <a href="midia/BLYAT kid - [HQ] Sound Effect 4.mp3">Clique para baixar o arquivo mp3</a></p>
+    </audio>
+</body>
+</html>

@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'droid';
+    src: url(fontes/idroid.otf) format("opentype");
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    background-color: rgb(145, 255, 145);
+    font-weight: 500;
+}
+
+header {
+    background-image: linear-gradient(to top, rgb(0, 110, 0), rgb(0, 180, 0));
+    padding: 10px;
+}
+
+header p {
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+    margin: auto;
+}
+
+header a {
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+main {
+    background-color: lightgreen;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+}
+
+.video {
+    background-color: darkgreen;
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+article {
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+article p {
+    text-align: justify;
+    text-indent: 30px;
+    padding: 10px;
+    line-height: 20px;
+}
+
+article h1 {
+    font-family: 'droid',Arial, Helvetica, sans-serif;
+    color: darkgreen;
+    margin: 0;
+}
+
+article h2 {
+    font-family: 'droid',Arial, Helvetica, sans-serif;
+    color: darkgreen;
+    background-color: rgba(144, 238, 144, 0.24);
+}
+
+picture img {
+    display: block;
+    margin: 0 auto; /* centraliza horizontalmente */
+}
+
+div.extra {
+    background-color: rgb(145, 255, 145);
+    padding: 0px 0px 10px 0px;
+    margin: 0px;
+    border-radius: 10px;
+}
+
+.extra h3 {
+    background-color: darkgreen;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.bloco {
+    display: inline-block;
+    text-align: justify;
+    width: 300px;
+}
+
+.bloco ul {
+    list-style-type: none;
+    margin: 0px;
+}
+
+.bloco li::before {
+    content: "✔";
+    color: #0a8a0a; 
+}
+
+footer {
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+}
