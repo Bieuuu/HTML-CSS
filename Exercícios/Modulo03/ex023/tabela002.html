@@ -11,21 +11,30 @@
 
         table {
             width: 500px;
+            border-collapse: collapse;
         }
 
         td, th {
             border: 1px solid black;
             padding: 5px;
         }
+        
+        tfoot, thead {
+            background-color: gray;
+            color: white;
+        }
     </style>
 </head>
 <body>
     <h1>uso de tablelas grandes</h1>
     <table>
+        <caption>
+            Populaçao
+        </caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>Populaçao</th>
+                <th scope="col">Estado</th>
+                <th scope="col">Populaçao</th>
             </tr>
         </thead>
         <tbody>
@@ -33,7 +42,21 @@
                 <td>Sao paulo</td>
                 <td>45 919 049</td>
             </tr>
+            <tr>
+                <td>Sao paulo</td>
+                <td>45 919 049</td>
+            </tr>
+            <tr>
+                <td>Sao paulo</td>
+                <td>45 919 049</td>
+            </tr>
         </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de habitantes</th>
+                <td>(total)</td>
+            </tr>
+        </tfoot>
     </table>
 </body>
 </html>
